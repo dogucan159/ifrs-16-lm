@@ -1,0 +1,7 @@
+{
+  "name": "ifrs-16-lm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
