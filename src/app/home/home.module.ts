@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { DxDataGridModule } from 'devextreme-angular/ui/data-grid';
+import { DxFormModule } from 'devextreme-angular/ui/form';
+import { DashboardComponent } from '../dashboard/dashboard.component';
 
 
 @NgModule({
@@ -12,8 +15,10 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    DxDataGridModule,
+    DxFormModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, DashboardComponent]
 })
 export class HomePageModule {}
